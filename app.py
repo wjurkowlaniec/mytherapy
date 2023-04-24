@@ -7,7 +7,7 @@ from sqlalchemy import and_
 from typing import List
 from datetime import datetime, timedelta
 import db_models
-from db_models import User, Reminder, ReminderGroup, ReminderEntry, Schedule
+from db_models import ReminderGroupEntry, User, Reminder, ReminderGroup, ReminderEntry, Schedule
 from database import SessionLocal, engine
 
 from models import UserCreate, UserOut, ReminderCreate, ReminderOut, ReminderGroupCreate, ReminderGroupOut, ReminderEntryCreate, ReminderEntryOut, ScheduleCreate, ScheduleOut

@@ -17,6 +17,7 @@ class User(Base):
     reminder_groups = relationship("ReminderGroup", back_populates="user")
 
 
+
 class Reminder(Base):
     __tablename__ = 'reminders'
     id = Column(Integer, primary_key=True)
@@ -78,5 +79,5 @@ class Schedule(Base):
     reminders = relationship("Reminder", back_populates="schedule")
 
 
-engine = create_engine('sqlite:///reminders.db')
+engine = create_engine("sqlite:///./mytherapy.db")
 Base.metadata.create_all(engine)
