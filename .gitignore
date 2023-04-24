@@ -1,0 +1,51 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+dist/
+*.egg
+*.log
+*.pot
+*.pyc
+*.pyo
+*.mo
+*.so
+*.orig
+.pytest_cache/
+*.pytest_cache
+
+# Virtualenv
+venv/
+.virtualenv/
+*.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Vue.js
+node_modules/
+dist/
+.cache/
+*.log
+*.lock
+.env
+.env.local
+.env.*.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# OS generated
+.DS_Store
+Thumbs.db
